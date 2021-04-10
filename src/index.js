@@ -5,12 +5,13 @@ import reportWebVitals from "./reportWebVitals";
 
 // import { HookApp } from "./HookApp.jsx";
 // import { Counter } from "./components/useState/Counter";
-import { CounterCustome } from "./components/useState/CounterCustome";
+// import { CounterCustome } from "./components/useState/CounterCustome";
+import { SimpleForm } from "./components/useEffect/SimpleForm";
 
 ReactDOM.render(
   <React.StrictMode>
     {/* <Counter /> */}
-    <CounterCustome />
+    <SimpleForm />
   </React.StrictMode>,
   document.getElementById("root")
 );
