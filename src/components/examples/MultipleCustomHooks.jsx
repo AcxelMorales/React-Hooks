@@ -3,6 +3,8 @@ import React from "react";
 import { useCounter } from "../../hooks/useCounter";
 import { useFetch } from "../../hooks/useFetch";
 
+import { Loading } from "../shared/Loading";
+
 import "../useEffect/effects.css";
 
 export const MultipleCustomHooks = () => {
@@ -16,12 +18,7 @@ export const MultipleCustomHooks = () => {
       <hr />
 
       {loading ? (
-        <div className="alert alert-info text-center animate__animated animate__fadeIn">
-          <div className="spinner-border text-light" role="status">
-            <span className="visually-hidden">Loading...</span>
-          </div>
-          <span className="d-block mt-3">Loading data...</span>
-        </div>
+        <Loading />
       ) : (
         <figure className="text-end animate__animated animate__fadeIn">
           <blockquote className="blockquote">
