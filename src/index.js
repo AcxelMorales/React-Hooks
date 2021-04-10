@@ -7,12 +7,13 @@ import reportWebVitals from "./reportWebVitals";
 // import { Counter } from "./components/useState/Counter";
 // import { CounterCustome } from "./components/useState/CounterCustome";
 // import { SimpleForm } from "./components/useEffect/SimpleForm";
-import { FormHook } from "./components/useEffect/FormHook";
+// import { FormHook } from "./components/useEffect/FormHook";
+import { MultipleCustomHooks } from "./components/examples/MultipleCustomHooks";
 
 ReactDOM.render(
   <React.StrictMode>
     {/* <Counter /> */}
-    <FormHook />
+    <MultipleCustomHooks />
   </React.StrictMode>,
   document.getElementById("root")
 );
