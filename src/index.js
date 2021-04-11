@@ -8,12 +8,14 @@ import reportWebVitals from "./reportWebVitals";
 // import { CounterCustome } from "./components/useState/CounterCustome";
 // import { SimpleForm } from "./components/useEffect/SimpleForm";
 // import { FormHook } from "./components/useEffect/FormHook";
-import { MultipleCustomHooks } from "./components/examples/MultipleCustomHooks";
+// import { MultipleCustomHooks } from "./components/examples/MultipleCustomHooks";
+// import { FocusScreen } from "./components/useRef/FocusScreen";
+import { RealExampleRef } from "./components/useRef/RealExampleRef";
 
 ReactDOM.render(
   <React.StrictMode>
     {/* <Counter /> */}
-    <MultipleCustomHooks />
+    <RealExampleRef />
   </React.StrictMode>,
   document.getElementById("root")
 );
