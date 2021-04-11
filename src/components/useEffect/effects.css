@@ -1,3 +1,7 @@
 body {
   padding: 20px;
 }
+
+.mr-3-button {
+  margin-right: 10px !important;
+}
