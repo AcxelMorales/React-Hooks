@@ -13,12 +13,14 @@ import reportWebVitals from "./reportWebVitals";
 // import { RealExampleRef } from "./components/useRef/RealExampleRef";
 // import { LayoutEffect } from "./components/useLayoutEffect/LayoutEffect";
 // import { Memorize } from "./components/memos/Memorize";
-import { MemoHook } from "./components/memos/MemoHook";
+// import { MemoHook } from "./components/memos/MemoHook";
+// import { CallbackHook } from "./components/memos/CallbackHook";
+import { Padre } from "./components/tarea-memo/Padre";
 
 ReactDOM.render(
   <React.StrictMode>
     {/* <Counter /> */}
-    <MemoHook />
+    <Padre />
   </React.StrictMode>,
   document.getElementById("root")
 );
