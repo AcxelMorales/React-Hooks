@@ -3,7 +3,7 @@ import React, { useContext } from "react";
 import { UserContext } from "./UserContext";
 
 export const LoginScreen = () => {
-  const { setUser } = useContext(UserContext);
+  const { user, setUser } = useContext(UserContext);
 
   const handleLogin = () => {
     setUser({
@@ -14,9 +14,13 @@ export const LoginScreen = () => {
   };
 
   return (
-    <div>
+    <>
       <h1>LoginPage</h1>
       <hr />
+
+      <pre>
+        {JSON.stringify(user, null, 3)}
+      </pre>
 
       <div className="d-grid gap-2 mt-5 mx-auto col-10">
         <button
@@ -26,6 +30,6 @@ export const LoginScreen = () => {
           Login
         </button>
       </div>
-    </div>
+    </>
   );
 };
